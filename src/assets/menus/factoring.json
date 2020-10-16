@@ -1,0 +1,180 @@
+[
+    {
+        "text": "保理业务管理",
+        "group": false,
+        "children": [
+            {
+                "text": "工作台",
+                "icon": "anticon antanticon anticon-home",
+                "acl": {
+                    "ability": [
+                        "Homepage"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "待办事项",
+                        "link": "/main/factoring/unhandled-task",
+                        "acl": {
+                            "ability": [
+                                "ToDoTask"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "已办事项",
+                        "link": "/main/factoring/handled-task",
+                        "acl": {
+                            "ability": [
+                                "CompleteTask"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "统计图表",
+                        "link": "/main/factoring/dashboard",
+                        "acl": {
+                            "ability": [
+                                "Dashboard"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "客户管理",
+                "icon": "anticon antanticon anticon-profile",
+                "acl": {
+                    "ability": [
+                        "CustomerManagement"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "供应商",
+                        "link": "/main/factoring/customer/supplier-list",
+                        "acl": {
+                            "ability": [
+                                "SupplierInfo"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "资金方",
+                        "link": "/main/factoring/customer/fund-institution-list",
+                        "acl": {
+                            "ability": [
+                                "FundProviderInfo"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "客户账号",
+                        "link": "/main/factoring/customer/account-list",
+                        "acl": {
+                            "ability": [
+                                "CustomerAccount"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "保理业务",
+                "icon": "anticon antanticon anticon-pay-circle-o",
+                "acl": {
+                    "ability": [
+                        "FactoringBusiness"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "融资申请",
+                        "link": "/main/factoring/finance/financing-list",
+                        "acl": {
+                            "ability": [
+                                "FinanceApply"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "放款申请",
+                        "link": "/main/factoring/finance/loan-apply-list",
+                        "acl": {
+                            "ability": [
+                                "LoanApply"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "放款台账",
+                        "link": "/main/factoring/finance/loan-record-list",
+                        "acl": {
+                            "ability": [
+                                "LoanBill"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "还款清分",
+                "icon": "anticon anticon-pay-circle",
+                "acl": {
+                    "ability": [
+                        "Repayment"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "待还款业务",
+                        "link": "/main/factoring/repayment/unsettled-list",
+                        "acl": {
+                            "ability": [
+                                "UnsettledRepayment"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "还款台账",
+                        "link": "/main/factoring/repayment/repay-record-list",
+                        "acl": {
+                            "ability": [
+                                "RepaymentRecord"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "已结清业务",
+                        "link": "/main/factoring/repayment/settled-list",
+                        "acl": {
+                            "ability": [
+                                "SettledRepayment"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "基础设置",
+                "icon": "anticon anticon-setting",
+                "acl": {
+                    "ability": [
+                        "BasicSettings"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "签约主体",
+                        "link": "/main/factoring/settings/contract-party-list",
+                        "acl": {
+                            "ability": [
+                                "Company"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

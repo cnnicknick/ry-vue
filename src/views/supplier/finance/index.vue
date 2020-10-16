@@ -1,8 +1,5 @@
 <template>
-  <div>
-    这是供应商融资列表
-    <router-link :to="link">去首页</router-link>
-  </div>
+  <a-card title="业务单列表" :bordered="false"></a-card>
 </template>
 
 <script>

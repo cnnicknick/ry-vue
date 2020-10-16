@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="327px" viewBox="0 0 1920 327" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>路径</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.68">
+        <g id="对外门户系统供应商-业务查询-" transform="translate(0.000000, -1767.000000)" fill="#C5D7E5" fill-rule="nonzero">
+            <g id="底部" transform="translate(0.000000, 1767.000000)">
+                <path d="M0,128 L0,0 L106.666667,21.3 C213.333333,43 426.666667,85 640,85.3 C853.333333,85 1066.66667,43 1280,32 C1493.33333,21 1706.66667,43 1813.33333,53.3 L1920,64 L1920,128 L1920,327 L0,327 L0,128 Z" id="形状结合" transform="translate(960.000000, 163.500000) scale(-1, 1) translate(-960.000000, -163.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

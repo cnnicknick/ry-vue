@@ -1,12 +1,14 @@
 <template>
   <div>
-    这是供应商首页
-    <router-link :to="link">去融资</router-link>
+    <business-statistics></business-statistics>
   </div>
 </template>
 
 <script>
+import BusinessStatistics from "./components/business-statistics";
+
 export default {
+  components: { BusinessStatistics },
   name: "home",
   data() {
     return {

@@ -1,20 +1,20 @@
 <template>
-  <div id="app">
-    <HelloWorld msg="This is my first vue app" />
+  <div id="app" style="width: 1200px; margin: 0 auto;">
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    // HelloWorld
   }
 };
 </script>
 
 <style>
+
 </style>

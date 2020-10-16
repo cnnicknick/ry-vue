@@ -1,0 +1,283 @@
+[
+    {
+        "text": "东方瑞云供应链金融平台",
+        "group": false,
+        "children": [
+            {
+                "text": "工作台",
+                "icon": "anticon antanticon anticon-home",
+                "acl": {
+                    "ability": [
+                        "FCT-Workbench"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "首页",
+                        "link": "/main/crm/homepage",
+                        "acl": {
+                            "ability": [
+                                "FCT-Homepage"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "统计图表",
+                        "link": "/main/factoring/dashboard",
+                        "acl": {
+                            "ability": [
+                                "FCT-StatisticalChart"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "CRM",
+                "icon": "anticon antanticon anticon-profile",
+                "acl": {
+                    "ability": [
+                        "CRM-CrmInfo"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "客户",
+                        "link": "/main/crm/customer-info/customer-list",
+                        "acl": {
+                            "ability": [
+                                "CRM-Customer"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "联系人",
+                        "link": "/main/crm/customer-info/contact-list",
+                        "acl": {
+                            "ability": [
+                                "CRM-Contact"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "活动",
+                        "link": "/main/crm/customer-info/action-list",
+                        "acl": {
+                            "ability": [
+                                "CRM-Action"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "反向保理业务",
+                "icon": "anticon antanticon anticon-link",
+                "acl": {
+                    "ability": [
+                        "FCT-BusinessManagement"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "融资申请",
+                        "link": "/main/factoring/finance/financing-list",
+                        "acl": {
+                            "ability": [
+                                "FCT-FinanceApply"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "放款申请",
+                        "link": "/main/factoring/finance/loan-apply-list",
+                        "acl": {
+                            "ability": [
+                                "FCT-LoanApply"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "放款台账",
+                        "link": "/main/factoring/finance/loan-record-list",
+                        "acl": {
+                            "ability": [
+                                "FCT-LoanBill"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "资金方维护",
+                        "link": "/main/factoring/customer/fund-institution-list",
+                        "acl": {
+                            "ability": [
+                                "FCT-FundProviderInfo"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "保理总协议",
+                        "link": "/main/factoring/customer/factoring-agreement-list",
+                        "acl": {
+                            "ability": [
+                                "FCT-SupplierAgreement"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "结算款业务",
+                "icon": "anticon antanticon anticon-pay-circle-o",
+                "acl": {
+                    "ability": [
+                        "SPF-SettlementBusiness"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "业务上报",
+                        "link": "/main/settlement/business-report/business-report-list",
+                        "acl": {
+                            "ability": [
+                                "SPF-BusinessReport"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "投委审批",
+                        "link": "/main/settlement/committee-check/committee-check-list",
+                        "acl": {
+                            "ability": [
+                                "SPF-CommitteeApproval"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "融资申请",
+                        "link": "/main/settlement/finance-apply/finance-apply-list",
+                        "acl": {
+                            "ability": [
+                                "SPF-FinanceApply"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "放款台账",
+                        "link": "/main/settlement/finance-apply/loan-record-list",
+                        "acl": {
+                            "ability": [
+                                "SPF-LoanBill"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "资金方维护",
+                        "link": "/main/settlement/fund-provider/fund-provider-list",
+                        "acl": {
+                            "ability": [
+                                "SPF-FundProviderInfo"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "还款台账",
+                        "link": "/main/settlement/finance-apply/repay-record-list",
+                        "acl": {
+                            "ability": [
+                                "SPF-RepaymentRecord"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "基础设置",
+                "icon": "anticon antanticon anticon-setting",
+                "acl": {
+                    "ability": [
+                        "FCT-BasicSettings"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "签约主体",
+                        "link": "/main/factoring/settings/contract-party-list",
+                        "acl": {
+                            "ability": [
+                                "FCT-Company"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "人员管理",
+                "icon": "anticon antanticon anticon-team",
+                "acl": {
+                    "ability": [
+                        "SEC-PeopleManagement"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "组织架构",
+                        "link": "/main/system-manage/employee-manage/organization",
+                        "acl": {
+                            "ability": [
+                                "SEC-Organization"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "职位管理",
+                        "link": "/main/system-manage/employee-manage/position-list",
+                        "acl": {
+                            "ability": [
+                                "SEC-JobTitleManagement"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "员工管理",
+                        "link": "/main/system-manage/employee-manage/employee-list",
+                        "acl": {
+                            "ability": [
+                                "SEC-EmployeeManagement"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "用户及权限",
+                "icon": "anticon antanticon anticon-key",
+                "acl": {
+                    "ability": [
+                        "SEC-UserPermission"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "用户管理",
+                        "link": "/main/system-manage/user-manage/user-list",
+                        "acl": {
+                            "ability": [
+                                "SEC-UserManagement"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "角色管理",
+                        "link": "/main/system-manage/user-manage/role-list",
+                        "acl": {
+                            "ability": [
+                                "SEC-RoleManagement"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    {
+        "text": "进度款业务系统",
+        "group": false,
+        "children": [
+            {
+                "text": "进度款首页",
+                "icon": "anticon antanticon anticon-dashboard",
+                "link": "/main/crm/homepage",
+                "acl": {
+                    "ability": [
+                        "Homepage"
+                    ]
+                }
+            },
+            {
+                "text": "客户信息",
+                "icon": "anticon antanticon anticon-dashboard",
+                "acl": {
+                    "ability": [
+                        "CustomerInfo"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "客户",
+                        "link": "/main/crm/customer-info/customer-list",
+                        "acl": {
+                            "ability": [
+                                "Customer"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "联系人",
+                        "link": "/main/crm/customer-info/contact-list",
+                        "acl": {
+                            "ability": [
+                                "Contact"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "活动",
+                        "link": "/main/crm/customer-info/action-list",
+                        "acl": {
+                            "ability": [
+                                "Action"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "text": "客户权属",
+                "icon": "anticon antanticon anticon-dashboard",
+                "acl": {
+                    "ability": [
+                        "CustomerOwnership"
+                    ]
+                },
+                "children": [
+                    {
+                        "text": "分配",
+                        "link": "/main/crm/customer-ownership/customer-allocate",
+                        "acl": {
+                            "ability": [
+                                "CustomerAllocate"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "移交",
+                        "link": "/main/crm/customer-ownership/customer-transfer",
+                        "acl": {
+                            "ability": [
+                                "CustomerTransfer"
+                            ]
+                        }
+                    },
+                    {
+                        "text": "变更记录",
+                        "link": "/main/crm/customer-ownership/transfer-history-list",
+                        "acl": {
+                            "ability": [
+                                "CustomerTransferRecords"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

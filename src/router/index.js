@@ -19,6 +19,18 @@ export const routerMap = [
             {
                 path: 'finance',
                 component: () => import('../views/supplier/finance')
+            },
+            {
+                path: 'sign-inline',
+                component: () => import('../views/supplier/sign-inline')
+            },
+            {
+                path: 'user-info',
+                component: () => import('../views/supplier/finance')
+            },
+            {
+                path: 'password',
+                component: () => import('../views/supplier/finance')
             }
         ]
     },
